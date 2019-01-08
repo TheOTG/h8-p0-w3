@@ -8,7 +8,7 @@ function pasanganTerbesar(num) {
         }
     }
 
-    return result;
+    return Number(result);
 }
   
 // TEST CASES
