@@ -1,10 +1,11 @@
 function balikString(kata) {
-    var word = '';
+    var word = kata.split('');
+    var result = [];
     
-    for(var i = 0; i < kata.length; i++) {
-        word += kata[kata.length -1 -i];
+    for(var i = 0; i < word.length; i++) {
+        result.push(word[i]);
     }
-    return word;
+    return result;
 }
 
 console.log(balikString('hello world!'));
